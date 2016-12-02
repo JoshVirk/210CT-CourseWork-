@@ -2,3 +2,5 @@ import random #Imports module
 
 Num = [5,3,8,6,1,9,2,7]#List unshuffled
 RanList = random.sample(range(0, 8), 8)#Generates a randome list numbers
+RanGen = [Num[i] for i in RanList] #Assigns the fixed numbers to the randomised one
+print (RanGen)
