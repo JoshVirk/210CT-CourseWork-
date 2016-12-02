@@ -8,3 +8,7 @@ print(B)
 for i in range(len(A)):#iterate through rows
    for j in range(len(A[0])):#iterate through columns
        Ans[i][j] = A[i][j] + B[i][j]#Calculation of the two matrices
+
+for An in Ans:
+   print("The addition of the matrices:")
+   print(An)#Prints answer with which calculation it was
