@@ -20,3 +20,8 @@ def iterate(root):
           s.append(C_Node)# Place pointer to a tree on the stack before traversing the left subtree
          
             C_Node = C_Node.left 
+        
+        else:# Go back to the top of the subtree if the current node is empty
+            if(len(s) >0 ):
+                C_Node = s.pop()
+                print (C_Node.Num)
