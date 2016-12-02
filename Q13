@@ -11,3 +11,8 @@ def iterate(root):
     C_Node = root 
     s = [] 
     Complete = 0
+    
+    while(not Complete):
+         
+        
+        if C_Node is not None:# Go to the left most Node 
