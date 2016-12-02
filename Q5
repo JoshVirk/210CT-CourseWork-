@@ -5,3 +5,6 @@ Ans = [[0,0,0]]
 print("The original matrices:")
 print(A)#Shows the original list
 print(B)
+for i in range(len(A)):#iterate through rows
+   for j in range(len(A[0])):#iterate through columns
+       Ans[i][j] = A[i][j] + B[i][j]#Calculation of the two matrices
