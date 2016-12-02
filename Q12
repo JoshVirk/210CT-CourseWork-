@@ -7,3 +7,12 @@ class Node(object):#Node class
 
     def G_next (self):
         return self.next_node #Returns the next node
+    
+    def S_next (self, sn):
+        self.next_node = sn#Selects the next node
+
+    def G_prev (self):
+        return self.prev_node#Gets the previous node
+
+    def S_prev (self, sp):
+        self.prev_node = sp# Selects previous node
