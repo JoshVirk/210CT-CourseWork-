@@ -58,3 +58,12 @@ class Double_Link_List (object):
             else:
                 this_node = this_node.G_next()
         return False  # Data not found 
+        
+    def find (self, sd):
+        C_node = self.root
+        while C_node:
+            if C_node.G_data() == sd:#Current node will get data from self data
+                return sd
+            else:
+                C_node = C_node.G_next()#Will check next
+        return None
