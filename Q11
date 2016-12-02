@@ -1,3 +1,7 @@
 def NumSeq(n):
     SeqL = []#Longest Number sequence
     C_Seq = []#The current number sequence
+
+    for i in range( len(n) ):#loops and checks the Sequence of numbers
+        if i < len(n) - 1 and n[i] <= n[i+1]:
+            C_Seq.append(n[i]
