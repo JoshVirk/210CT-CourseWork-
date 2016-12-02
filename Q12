@@ -16,3 +16,9 @@ class Node(object):#Node class
 
     def S_prev (self, sp):
         self.prev_node = sp# Selects previous node
+
+    def G_data (self):
+        return self.data#Gets the data currently using
+
+    def S_data (self, sd):#Selects the data currently using
+        self.data = sd
