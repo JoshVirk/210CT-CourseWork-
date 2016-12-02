@@ -10,3 +10,6 @@ def P_Square(P):
         else:#Since the above can be achieved it is a perfect square
             print (P, ' is a perfect square.')
             return Num
+     else:#If niether top criteria matches then the number cannot be positive
+        print (P, ' is not a positive number.')
+        return None
