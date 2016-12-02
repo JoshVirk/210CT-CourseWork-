@@ -13,3 +13,6 @@ def IntervalSearch():
         high == False
     else:# Done so that if number entered is less it should not be valid
         high==True
+
+    if low == True and high ==True:
+        print ("True")#If both are true the value exists
