@@ -12,3 +12,4 @@ def Prime_True():
     else:
         print (str(Prime_Num), "is not a prime number")#If yes, number will not be prime
         print("Numbers that divide into the number include: ",factors)#prints the number in the array
+Prime_True()
