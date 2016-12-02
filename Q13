@@ -1,1 +1,6 @@
 class Node_Tree:
+
+  def __init__(self, Num):# This will create a new node
+        self.Num = Num
+        self.left = None
+        self.right = None
