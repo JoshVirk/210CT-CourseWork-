@@ -2,3 +2,7 @@ print("This is awesome")#Original Sentence
 
 def switch (W1, W2, W3):#Function that calls the parameters and then swaps them
     return W3, W2, W1
+
+W1 = "This"
+W2 = "is"#Assigns words to a parameter
+W3 = "Awesome"
