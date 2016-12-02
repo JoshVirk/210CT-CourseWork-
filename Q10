@@ -8,3 +8,8 @@ def IntervalSearch():
         low==False
     else:# Done so that if number entered is less it should not be valid
         low==True
+
+    if high>10:
+        high == False
+    else:# Done so that if number entered is less it should not be valid
+        high==True
