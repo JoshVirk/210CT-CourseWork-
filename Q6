@@ -6,3 +6,6 @@ def switch (W1, W2, W3):#Function that calls the parameters and then swaps them
 W1 = "This"
 W2 = "is"#Assigns words to a parameter
 W3 = "Awesome"
+
+W1, W2, W3 = switch(W1,W2,W3)#Calls the function with the parameters and runs the swtich functions
+print (W1, W2, W3)
