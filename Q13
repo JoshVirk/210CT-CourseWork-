@@ -4,3 +4,10 @@ class Node_Tree:
         self.Num = Num
         self.left = None
         self.right = None
+
+def iterate(root):
+     
+   # Set current to root of binary tree
+    C_Node = root 
+    s = [] 
+    Complete = 0
