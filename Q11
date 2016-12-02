@@ -7,4 +7,7 @@ def NumSeq(n):
             C_Seq.append(n[i]
         
         else:
-      C_Seq.append(n[i])#Appends the current sequence
+            C_Seq.append(n[i])#Appends the current sequence
+        if len(C_Seq) > len(SeqL):
+#Checks if the current sequence is longer that of the longest sequence alread there
+    
