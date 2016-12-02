@@ -1,0 +1,3 @@
+def NumSeq(n):
+    SeqL = []#Longest Number sequence
+    C_Seq = []#The current number sequence
