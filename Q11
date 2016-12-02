@@ -11,3 +11,7 @@ def NumSeq(n):
         if len(C_Seq) > len(SeqL):
 #Checks if the current sequence is longer that of the longest sequence alread there
     
+            SeqL = C_Seq
+        C_Seq = []#Empties the current sequence
+    else:
+          SeqL=SeqL
