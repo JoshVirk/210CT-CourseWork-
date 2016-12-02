@@ -16,3 +16,7 @@ def iterate(root):
          
         
         if C_Node is not None:# Go to the left most Node 
+        
+          s.append(C_Node)# Place pointer to a tree on the stack before traversing the left subtree
+         
+            C_Node = C_Node.left 
