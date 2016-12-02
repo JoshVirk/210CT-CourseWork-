@@ -2,3 +2,6 @@ factors = []#Creates an array
 def Prime_True():
     Prime_Num = int(input("Enter and integer: "))
     x=2
+    while x < Prime_Num:#While number is less than 2
+        if (Prime_Num%x)==0:#While the number entered has a remainder of 0 when divided by x
+            factors.append(x)#This will add the number to the array
