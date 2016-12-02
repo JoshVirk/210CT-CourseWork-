@@ -1,1 +1,4 @@
 factors = []#Creates an array
+def Prime_True():
+    Prime_Num = int(input("Enter and integer: "))
+    x=2
