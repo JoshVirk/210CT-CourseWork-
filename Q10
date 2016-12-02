@@ -1,1 +1,5 @@
 List = [3,1,5,7,2,4,7,8,3,5]#List of numbers
+
+def IntervalSearch():
+    low = int(input("Input the low number: "))#Numbers to be set as the low and high
+    high = int(input("Input the high number: "))
