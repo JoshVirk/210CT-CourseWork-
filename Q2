@@ -1,3 +1,6 @@
 def Trail_Z(TZ):
   if TZ%5==0:#Checks so that only if the remainder is zero will it work
         print("The number is valild.")
+        print("The trailing Zeroes of",TZ,"is",TZ/5,".")#Prints out the original number and the number when the trailing zeroes are calculated
+    else:
+        print("Please enter a valid number: ")
