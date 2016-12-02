@@ -22,3 +22,9 @@ class Node(object):#Node class
 
     def S_data (self, sd):#Selects the data currently using
         self.data = sd
+
+class Double_Link_List (object):
+
+    def __init__(self, sr = None):
+        self.root = sr#Gives the root and variable name and the size of it starting to 0
+        self.size = 0
