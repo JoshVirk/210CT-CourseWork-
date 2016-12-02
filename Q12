@@ -1,0 +1,9 @@
+class Node(object):#Node class
+
+    def __init__ (self, sd, sn = None, sp = None):#Sets previous and next as none since there is nothing currently selected when starting
+        self.data = sd
+        self.next_node = sn#Sets nodes with variable names
+        self.prev_node = sp
+
+    def G_next (self):
+        return self.next_node #Returns the next node
