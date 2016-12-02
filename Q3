@@ -3,3 +3,7 @@ def P_Square(P):
     if P >= 0:
         while Num*Num < P:#While the Num is less the number looked at it will add one and run the calculation again
             Num = Num + 1
+        
+        if Num*Num != P:#Runs each time and if by the end two numbers do not make this number then the answer will return none.
+            print (P, 'is not a perfect square.')
+            return None
