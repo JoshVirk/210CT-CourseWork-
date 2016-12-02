@@ -1,0 +1,4 @@
+print("This is awesome")#Original Sentence
+
+def switch (W1, W2, W3):#Function that calls the parameters and then swaps them
+    return W3, W2, W1
