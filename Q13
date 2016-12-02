@@ -30,3 +30,12 @@ def iterate(root):
                  #This will set the right subtree to be looked at now that we have checked the left
             else:
                 Complete = 1 
+
+root = Node_Tree(6)#These are the nodes and the numbers assigned to each node when the program is run.
+root.left = Node_Tree(4)
+root.left.left = Node_Tree(3)
+root.left.right = Node_Tree(5)
+root.left.left.left = Node_Tree(2)
+root.right = Node_Tree(10)
+root.right.right = Node_Tree(11)
+iterate(root)#Runs the functions
