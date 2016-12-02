@@ -15,3 +15,9 @@ def NumSeq(n):
         C_Seq = []#Empties the current sequence
     else:
           SeqL=SeqL
+
+    print("Original List: 64,67,24,12,78,31,34,56,13,1,2,3,4") 
+    print ("The long sequence is ", SeqL)
+
+
+NumSeq([72,73,74,75,76,11,15,14,77])#Numbers in sequence
