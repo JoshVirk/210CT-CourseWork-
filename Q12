@@ -46,3 +46,15 @@ class Double_Link_List (object):
             if this_node.G_data() == sd:#This will take the data selected by this node
                 next = this_node.G_next()
                 prev = this_node.G_prev()#Also get the data that was previous and after this node
+
+                if next:
+                    next.S_prev(prev)#Will check previous
+                if prev:
+                    prev.S_next(next)#Will check next
+                else:
+                    self.root = C_node
+                self.size -= 1#Reduces the size
+                return True # Data removed
+            else:
+                this_node = this_node.G_next()
+        return False  # Data not found 
