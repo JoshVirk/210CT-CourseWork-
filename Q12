@@ -28,3 +28,13 @@ class Double_Link_List (object):
     def __init__(self, sr = None):
         self.root = sr#Gives the root and variable name and the size of it starting to 0
         self.size = 0
+
+ def G_size (self):
+        return self.size#Gets the size and returns it as the current size
+
+    def add (self, sd):
+        new_node = Node (sd, self.root)
+        if self.root:#Adds a new node as it will set the root to this new node and increases the size 1
+            self.root.S_prev(new_node)
+        self.root = new_node
+        self.size += 1
