@@ -1,3 +1,7 @@
 A = [[9,21,4]]#Matrices used for the calculation
 B = [[12,6,15]]
 Ans = [[0,0,0]]
+
+print("The original matrices:")
+print(A)#Shows the original list
+print(B)
