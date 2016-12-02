@@ -38,3 +38,11 @@ class Double_Link_List (object):
             self.root.S_prev(new_node)
         self.root = new_node
         self.size += 1
+
+    def Remove (self, sd):
+        this_node = self.root#Select the root to become the current node
+
+        while this_node:
+            if this_node.G_data() == sd:#This will take the data selected by this node
+                next = this_node.G_next()
+                prev = this_node.G_prev()#Also get the data that was previous and after this node
