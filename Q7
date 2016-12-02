@@ -9,3 +9,6 @@ def Prime_True():
         x=x+1#Count is +1 after each loop
     if len(factors) == 0:#Checks if no numbers are grabed from the array
         print(str(Prime_Num), "is a prime number")#If not number is prime
+    else:
+        print (str(Prime_Num), "is not a prime number")#If yes, number will not be prime
+        print("Numbers that divide into the number include: ",factors)#prints the number in the array
