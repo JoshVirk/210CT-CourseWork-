@@ -7,3 +7,6 @@ def P_Square(P):
         if Num*Num != P:#Runs each time and if by the end two numbers do not make this number then the answer will return none.
             print (P, 'is not a perfect square.')
             return None
+        else:#Since the above can be achieved it is a perfect square
+            print (P, ' is a perfect square.')
+            return Num
