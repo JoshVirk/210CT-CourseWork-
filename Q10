@@ -16,3 +16,10 @@ def IntervalSearch():
 
     if low == True and high ==True:
         print ("True")#If both are true the value exists
+
+    else:
+        print ("False")
+
+    return low, high
+
+IntervalSearch()#Runs function
