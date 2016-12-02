@@ -5,3 +5,4 @@ def Remove_V(x):
     elif x[0] in "aeiouAEIOU": #If true selects the string of numbers
         return Remove_V(x[1:])#Returns the function to remove
     return x[0] + Remove_V(x[1:])#splices the string with nothing so any of these letters are removed
+print(Remove_V("Remove all vowels from this sentence"))
