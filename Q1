@@ -1,3 +1,4 @@
 import random #Imports module
 
 Num = [5,3,8,6,1,9,2,7]#List unshuffled
+RanList = random.sample(range(0, 8), 8)#Generates a randome list numbers
