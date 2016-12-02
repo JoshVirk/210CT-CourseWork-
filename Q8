@@ -6,3 +6,5 @@ def Prime_True():
         if (Prime_Num%x)==0:#While the number entered has a remainder of 0 when divided by x
             factors.append(x)#This will add the number to the array
         x=x+1#Count is +1 after each loop
+        if len(factors) == 0:#Checks if no numbers are grabed from the array
+        print(str(Prime_Num), "is a prime number")#If not number is prime
