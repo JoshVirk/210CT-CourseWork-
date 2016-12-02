@@ -23,3 +23,14 @@ P6=7
 P7=8
 P8=9
 P9=10
+print (P_Square(P0))
+print (P_Square(P1))
+print (P_Square(P2))
+print (P_Square(P3))
+print (P_Square(P4))
+print (P_Square(P5))#printing out numbers checked and its perfect square
+print (P_Square(P6))
+print (P_Square(P7))
+print (P_Square(P8))
+print (P_Square(P8))
+print (P_Square(P9))
