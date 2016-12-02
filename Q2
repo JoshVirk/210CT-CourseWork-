@@ -1,1 +1,3 @@
 def Trail_Z(TZ):
+  if TZ%5==0:#Checks so that only if the remainder is zero will it work
+        print("The number is valild.")
