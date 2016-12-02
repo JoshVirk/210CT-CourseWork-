@@ -25,3 +25,8 @@ def iterate(root):
             if(len(s) >0 ):
                 C_Node = s.pop()
                 print (C_Node.Num)
+        
+                C_Node = C_Node.right 
+                 #This will set the right subtree to be looked at now that we have checked the left
+            else:
+                Complete = 1 
