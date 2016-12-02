@@ -12,3 +12,7 @@ for i in range(len(A)):#iterate through rows
 for An in Ans:
    print("The addition of the matrices:")
    print(An)#Prints answer with which calculation it was
+
+for i in range(len(A)):
+   for j in range(len(A[0])):
+       Ans[i][j] = A[i][j] * B[i][j]#Calculation of the two matrices
