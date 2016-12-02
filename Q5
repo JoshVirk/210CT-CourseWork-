@@ -20,3 +20,7 @@ for i in range(len(A)):
 for An1 in  Ans:
     print ("The multiplication of the matrices:")
     print (An1)#Prints answer with which calculation it was
+
+for i in range(len(A)):
+   for j in range(len(A[0])):
+       Ans[i][j] = A[i][j] / B[i][j]#Calculation of the two matrices
