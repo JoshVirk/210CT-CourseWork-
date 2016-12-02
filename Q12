@@ -67,3 +67,13 @@ class Double_Link_List (object):
             else:
                 C_node = C_node.G_next()#Will check next
         return None
+        
+NodeList = Double_Link_List()#Calls the function for adding and removing nodes
+NodeList.add(1)
+NodeList.add(3)
+NodeList.add(4)#Nodes added
+NodeList.add(6)
+NodeList.add(9)
+NodeList.add(11)
+NodeList.add(15)
+print("Node 9 is now deleted: ", NodeList.remove(9))#Removes the node with 9 in it and will replace it with 11
